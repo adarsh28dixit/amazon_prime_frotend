@@ -1,38 +1,214 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#navBar{
+    background-color:#293646;
+    height:100px;
+    color:white
   }
-}
+  #topHalf{
+    height:50px;
+  }
+  #bottomHalf{
+    height:50px
+  }
+  #logo{
+    height:100px;
+    position:absolute;
+    top:-25px
+    
+  }
+  #logoWrapper{
+    margin-bottom:20px;
+    display:inline-block;
+    position:relative;
+    width:150px;
+    
+  }
+  #backToSchool{
+    height:50px;
+    float:right;
+    margin-right:20px
+    
+  }
+  input{
+    vertical-align:top;
+    margin-top:8px;
+    border-radius:5px;
+    height:35px;
+    width:400px;
+  }
+  #department{
+    font-size:25px;
+    padding:3  px;
+    margin-left:30px;
+    font-weight:bold;
+    display:inline-block;
+    vertical-align:top;
+    margin-top: 3px
+  }
+  #sections{
+    display:inline-block
+  }
+  .section{
+    display:inline-block;
+    vertical-align:top;
+    font-size:15px;
+    margin-top:10px;
+    margin-left:10px
+  }
+  #accountStuff{
+    display:inline-block;
+    float:right;
+    margin-right:20px
+  }
+  #head-top {
+    display:inline-block;
+    float:right;
+    margin-right:20px
+  }
+  
+  /* third nav */
+  
+  .topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #232F3E;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 6px;
+    text-decoration: none;
+    font-size: 16px;
+    
+  }
+  
+  .topnav a:hover {
+    
+    color: rgb(212, 204, 204);
+  }
+  
+ 
+  
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .topnav-right {
+    float: right;
+    margin-right: -5px;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  .nav-left {
+      margin-left: 2rem;
+  }
+
+  
+  
+
+  .row{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .card {
+    /*float: left;*/
+    max-width: 18rem;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-basis: 33.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  .card > img {
+    margin-bottom: .75rem;
+    width: 100%;
+  }
+  
+  .card-text {
+    font-size: 85%;
+  }
+  
+  
+ 
+  /* detail page */
+
+  .sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 210px; /* Same as the width of the sidenav */
+    font-size: 15px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    position: relative;
+    color: #3d3b3b;
+  }
+
+  .detail-image {
+    position: relative;
+    margin-top: -22px;
+  }
+
+  .detail-mid {
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 30px;
+    width: 600px;
+  }
+
+  .episode {
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+
+  .card-horizontal {
+    display: flex;
+    
+}
+.sub {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card-nav{
+  display: flex;
+  margin-top: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.card-nav{
+  background-color: #293646;
+  height: 100px;
+  color: #818181;
 }
